@@ -1,53 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Recriando layout</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-</head>
-
-<body>
-    
-    <nav>
+  <body>
+    <div class="container">
+      <nav>
         <a href="#" class="logo">
-            <img src="./images/logo.svg" alt="Imagem do logtipo Rockt.Sect com um cadeado no lugar da letra o">
+          <img
+            src="./images/logo.svg"
+            alt="Imagem do logtipo Rockt.Sect com um cadeado no lugar da letra o"
+          />
         </a>
         <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contatos</a></li>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Contatos</a></li>
         </ul>
-    </nav>
+      </nav>
 
-    <main>
-        <img src="./images/image.png" alt="Desenho de uma mulher ao lado de um notebook protegido com um cadeado">
+      <main>
+        <img
+          src="./images/image.png"
+          alt="Desenho de uma mulher ao lado de um notebook protegido com um cadeado"
+        />
         <section>
-            <p class="texto_1">Seus dados estão <!--/p> <p>--><span>protegidos?</span></p>
-            <p class="texto_2">A infromação é fundamental e de <b>extrema importância</b> para qualquer <br>empresa<br>
-            Aqui vai um <b>texto</b> como se fosse uma empresa de <span>segurança da informação</span> <br>
+          <p class="texto_1">
+            Seus dados estão
+            <span class="highlight">protegidos</span>?
+          </p>
+          <p class="texto_2">
+            A infromação é fundamental e de <b>extrema importância</b> para
+            qualquer <br />empresa<br />
+            Aqui vai um <b>texto</b> como se fosse uma empresa de
+            <span>segurança da informação</span> <br />
             apresentando o seu produto e com o texto todo estilizado.
-            </p>
+          </p>
         </section>
-            
-    </main>
+      </main>
 
-    <footer>
+      <footer>
         <div class="line"></div>
-        para mais informações no siga no<a href="#"> @rocktsect</a>
-    </footer>
+        <div>para mais informações no siga no<a href="#"> @rocktsect</a></div>
+      </footer>
+    </div>
 
-    <img id="decoration" src="./images/cadeado.svg" alt="iDesenho de um cadeado">
-
-</body>
+    <img
+      id="decoration"
+      src="./images/cadeado.svg"
+      alt="iDesenho de um cadeado"
+    />
+  </body>
 </html>
